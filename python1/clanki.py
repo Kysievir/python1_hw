@@ -285,7 +285,7 @@ def fsrs(elapsed_days, grade, s, d, desired_r, w):
   if grade < 2:
     next_s = next_forget_stability(d, s, r, w)
   else:
-    next_s = next_recall_stability(d, s, r, w)
+    next_s = next_recall_stability(d, s, r, grade, w)
     
   next_d = next_difficulty(d, grade, w)
   next_interv = next_interval(s, desired_r, w)
@@ -308,7 +308,7 @@ menu_parser.add_argument("-H", "--home", action="store_true")
 menu_parser.add_argument("-q", "--quit", action="store_true")
 menu_parser.add_argument("-s", "--setting", action="store_true")
 
-# TODO: These should not be callable outside Home.
+# These are not be callable outside Home.
 home_parser = argparse.ArgumentParser(prog="Home")
 home_parser.add_argument("-d", "--deck", type=str)
 home_parser.add_argument("-rm", "--remove", type=str)

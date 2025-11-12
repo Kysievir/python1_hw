@@ -90,10 +90,15 @@ Never gonna make you cry
 Never gonna say goodbye
 Never gonna tell a lie and hurt you"""
 
+# Task 1
 count = lyrics.count("never gonna") + lyrics.count("Never gonna")
+print("Task 1 answer:", count)
 
+# Task 2
 section_seps = re.findall(r'\[.*?\]', lyrics)
 
 clean_lyrics = lyrics.copy()
 for sep in section_seps:
     clean_lyrics = clean_lyrics.replace(section_seps + "\n", "")
+
+# Task 3
