@@ -1,0 +1,64 @@
+{
+    "German months": {
+        "1": {
+            "front": "January",
+            "back": "Januar",
+            "is_new": true
+        },
+        "2": {
+            "front": "February",
+            "back": "Februar",
+            "is_new": true
+        },
+        "3": {
+            "front": "March",
+            "back": "Marz",
+            "is_new": true
+        },
+        "4": {
+            "front": "April",
+            "back": "April",
+            "is_new": true
+        },
+        "5": {
+            "front": "May",
+            "back": "Mai",
+            "is_new": true
+        },
+        "6": {
+            "front": "June",
+            "back": "Juni",
+            "is_new": true
+        },
+        "7": {
+            "front": "July",
+            "back": "Juli",
+            "is_new": true
+        },
+        "8": {
+            "front": "August",
+            "back": "August",
+            "is_new": true
+        },
+        "9": {
+            "front": "September",
+            "back": "September",
+            "is_new": true
+        },
+        "10": {
+            "front": "October",
+            "back": "Oktober",
+            "is_new": true
+        },
+        "11": {
+            "front": "November",
+            "back": "November",
+            "is_new": true
+        },
+        "12": {
+            "front": "December",
+            "back": "Dezember",
+            "is_new": true
+        }
+    }
+}
